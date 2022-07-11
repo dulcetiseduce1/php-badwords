@@ -1,14 +1,5 @@
 <?php
 
-/*
-Creare una variabile con un paragrafo di testo a vostra scelta.
-Stampare a schermo il paragrafo e la sua lunghezza.
-Una parola da censurare viene passata dall'utente tramite parametro GET.
-Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare.
-*/
-
-<?php
-
 $paragrafo = "Siamo batteri, coi denti neri, siamo schifosi, con l'alitosi, paradontosi la gengivite paradontite placcaaa!!!
 Silvercare. L'unico con argento antibatterico. Anche per noi!";
 $censura = $_GET['schifosi'];
